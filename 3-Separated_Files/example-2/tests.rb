@@ -12,5 +12,5 @@ cases = {
 cases.each do |number, expectation|
   actual = fizzbuzz(number) # Actual method call
 
-  assert_equal(expectation, actual, "your method named fizzbuzz(#{number})") # Check if they are equal
+  assert_equal(expectation, actual, "fizzbuzz(#{number})") # Check if they are equal
 end
