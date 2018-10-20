@@ -1,5 +1,5 @@
 def fizzbuzz(number)
-  return "No strings please!" if not number.class == Integer
+  return "No strings please!" unless number.kind_of? Numeric
 
   if (number % 3 == 0) && (number % 5 == 0)
     'FizzBuzz'
