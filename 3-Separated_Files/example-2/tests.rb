@@ -1,5 +1,5 @@
-require_relative 'assertions_2'
-require_relative 'method_2'
+require_relative 'assertions'
+require_relative 'method'
 
 cases = {
   101       => 101,

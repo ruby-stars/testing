@@ -1,4 +1,4 @@
-require_relative 'tests_1'
+require_relative 'tests_and_assertions'
 
 def fizzbuzz(number)
   return "No strings please!" unless number.kind_of? Numeric

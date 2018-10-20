@@ -1,4 +1,4 @@
-require_relative 'method_1'
+require_relative 'method'
 
 cases = {
   101       => 101,
