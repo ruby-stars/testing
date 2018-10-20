@@ -22,8 +22,6 @@ def assert_bigger_than(expected, actual, method)
   end
 end
 
-private
-
 def print_success(method, actual)
   puts "#{method} returned #{actual} as expected."
 end
